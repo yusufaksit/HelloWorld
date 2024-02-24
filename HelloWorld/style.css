@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+html {
+    font-size: 9px;
+}
+
+body {
+    background-color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+
+header {
+    font-size: 1.6rem;
+    color: #eaeaea;
+    height: 30rem;
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    color: #eaeaea;
+    border: 1px solid #444;
+    padding: 1rem;
+    background-color: #333;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+p {
+    padding: 2rem 0;
+}
+
+header .bg-image {
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    transition-duration: 0.5s;
+    color: #333;
+}
+
+.content {
+    padding-top: 2rem;
+    ;
+}
+
+#section-a {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+
+.col img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.col-content {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+#section-b ul li {
+    padding: 1rem;
+    list-style: none;
+}
+
+.section-4 {
+    background-color: #eaeaea;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
+
+.section-4 h2 {
+    text-transform: uppercase;
+}
+
+.section-5 {
+    background-color: silver;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.section-5 h2 {
+    text-transform: uppercase;
+}
+
+.section-6 {
+    background-color: #eaeaea;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+
+
+.section-6 h2 {
+    text-transform: uppercase;
+}
+
+.contact i {
+    margin-right: 0.5rem;
+}
+
+
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 11px;
+    }
+
+    #section-b ul li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .section-5 {
+        width: 50%;
+        float: left;
+    }
+
+    .section-6 {
+        padding: 0;
+    }
+}
